@@ -1,3 +1,40 @@
+
+:root {
+  --background: #20242b;
+  --greenContrast: #55ff33;
+  --ReactBlue: #61dafb;
+  --orangeContrast: #ffb53d;
+  --navBackground: #182229
+}
+
+
+/** Default Page layout, should be used by the parent of all Pages
+    Splits the Page into three components in a horizontal layout*/
+.container {
+  text-align: center;
+  background-color: var(--background);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  overflow-x: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+/* React Defaults */
+
 .App {
   text-align: center;
 }
